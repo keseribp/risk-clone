@@ -189,7 +189,7 @@ void GameBoard::_initializeUIObjects()
     m_sd.labels[10].initialize(m_sd.window, &m_sd.controlPanel);
     
     if (DEBUG) printf("probe 4 GameBoard::_initializeUIObjects\n");    
-    m_sd.labels[0].setLabel(MapData::LABELS[0]);//("RISK (green is neutral)");
+    m_sd.labels[0].setLabel(MapData::LABELS[0]);//("BISK (green is neutral)");
     m_sd.labels[1].setLabel(MapData::LABELS[1]);//("Turn: ");
     m_sd.labels[2].setLabel(MapData::LABELS[2]);//("Player: ");
     m_sd.labels[3].setLabel(MapData::LABELS[3]);//("Phase: ");
