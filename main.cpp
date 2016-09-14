@@ -102,7 +102,7 @@ int main(void) {
 
     GLFWwindow * window;
     
-	window = glfwCreateWindow(WINDOW_X, WINDOW_Y, "Risk", NULL, NULL);
+	window = glfwCreateWindow(WINDOW_X, WINDOW_Y, "Game", NULL, NULL);
 	if(window == NULL) {
 		fprintf( stderr, "Failed to open GLFW window.\n" );
 		glfwTerminate();
