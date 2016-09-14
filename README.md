@@ -1,7 +1,7 @@
 # world_conquer_game
 
 ## Build:
-'$ nvcc -std=c++11 player.cpp uiObject.cpp frame.cpp canvas.cpp panel.cpp button.cpp label.cpp radioGroup.cpp humanPlayer.cpp splash.cpp gameBoard.cpp renderer.cpp main.cpp -o game -lglfw3 -lGLU -lGL -lGLEW -lX11 -lXxf86vm -lXinerama -lXcursor -lrt -lm -lXrandr -lpthread -lXi -ldl'
+`$ nvcc -std=c++11 player.cpp uiObject.cpp frame.cpp canvas.cpp panel.cpp button.cpp label.cpp radioGroup.cpp humanPlayer.cpp splash.cpp gameBoard.cpp renderer.cpp main.cpp -o game -lglfw3 -lGLU -lGL -lGLEW -lX11 -lXxf86vm -lXinerama -lXcursor -lrt -lm -lXrandr -lpthread -lXi -ldl`
 
 ## Screenshots:
 
